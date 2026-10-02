@@ -141,4 +141,5 @@ Or, if you don't trust random APKs online (sensible of you), download the projec
 
 ## License
 
-To be defined...
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
