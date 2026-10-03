@@ -125,13 +125,7 @@ Then, install the one that your system supports. :)
 flutter build ios
 ```
 
-### Web
-
-```bash
-flutter build web
-```
-
-_(Note: Haven't tested it on either ios or web, so I can't guarantee it'll work on those platforms. It might. But it might not, haha. Although, I'm pretty sure it should work on iOS.)_
+_(Note: The app works on iOS (assuming you have an Apple Mac/Macbook to run XCode for iOS development), but you'll need to make a small change to project's iOS config in XCode: Set the minimum iOS version to `14`. By default, it's set to `13`, but `file_picker`'s transient dependency `file_picker_darwin` needs minimum iOS version `14`. Once set, the app will launch without any issues.)_
 
 ## Other Notes
 
